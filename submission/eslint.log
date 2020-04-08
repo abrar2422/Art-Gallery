@@ -1,0 +1,371 @@
+
+> assignment5-6@1.0.1 eslint C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment
+> eslint src/**/*.js
+
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\all.js
+     14:15  error    Empty block statement                            no-empty
+     22:7   error    'IS_BROWSER' is assigned a value but never used  no-unused-vars
+     23:7   error    'IS_DOM' is assigned a value but never used      no-unused-vars
+     28:7   error    'IS_IE' is assigned a value but never used       no-unused-vars
+     34:17  error    Unreachable code                                 no-unreachable
+     66:33  warning  Expected '!==' and instead saw '!='              eqeqeq
+   3237:15  error    Empty block statement                            no-empty
+   3245:7   error    'IS_BROWSER' is assigned a value but never used  no-unused-vars
+   3246:7   error    'IS_DOM' is assigned a value but never used      no-unused-vars
+   3251:7   error    'IS_IE' is assigned a value but never used       no-unused-vars
+   3257:17  error    Unreachable code                                 no-unreachable
+   3289:33  warning  Expected '!==' and instead saw '!='              eqeqeq
+   4429:15  error    Empty block statement                            no-empty
+   4437:7   error    'IS_BROWSER' is assigned a value but never used  no-unused-vars
+   4438:7   error    'IS_DOM' is assigned a value but never used      no-unused-vars
+   4443:7   error    'IS_IE' is assigned a value but never used       no-unused-vars
+   4449:17  error    Unreachable code                                 no-unreachable
+   4481:33  warning  Expected '!==' and instead saw '!='              eqeqeq
+  11518:48  error    'Symbol' is not defined                          no-undef
+  11519:7   error    '_typeof' is a function                          no-func-assign
+  11523:7   error    '_typeof' is a function                          no-func-assign
+  11526:31  error    'Symbol' is not defined                          no-undef
+  11527:19  error    'Symbol' is not defined                          no-undef
+  11575:33  warning  Expected '!==' and instead saw '!='              eqeqeq
+  11616:7   error    'Symbol' is not defined                          no-undef
+  11629:25  error    'Symbol' is not defined                          no-undef
+  11639:33  warning  Expected '!==' and instead saw '!='              eqeqeq
+  11641:17  error    Unsafe usage of ThrowStatement                   no-unsafe-finally
+  11671:15  error    Empty block statement                            no-empty
+  11704:17  error    Unreachable code                                 no-unreachable
+  11896:12  error    'global' is not defined                          no-undef
+  11897:12  error    'global' is not defined                          no-undef
+  11898:74  error    'setImmediate' is not defined                    no-undef
+  12048:7   error    'global' is not defined                          no-undef
+  12053:5   error    'global' is not defined                          no-undef
+  12181:48  error    'Promise' is not defined                         no-undef
+  12252:12  warning  Unnecessary 'else' after 'return'                no-else-return
+  12265:12  warning  Unnecessary 'else' after 'return'                no-else-return
+  12378:12  warning  Unnecessary 'else' after 'return'                no-else-return
+  12656:12  warning  Unnecessary 'else' after 'return'                no-else-return
+  13010:12  warning  Unnecessary 'else' after 'return'                no-else-return
+  13250:12  warning  Unnecessary 'else' after 'return'                no-else-return
+  13348:12  warning  Unnecessary 'else' after 'return'                no-else-return
+  13590:41  error    'reject' is defined but never used               no-unused-vars
+  13658:12  warning  Unnecessary 'else' after 'return'                no-else-return
+  13986:22  error    Expected to return a value in method 'get'       getter-return
+  14050:14  warning  Unnecessary 'else' after 'return'                no-else-return
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\all.min.js
+     10:17  warning  Expected '!==' and instead saw '!='                              eqeqeq
+     10:63  warning  Expected '!==' and instead saw '!='                              eqeqeq
+     11:15  error    Empty block statement                                            no-empty
+     18:53  warning  Expected '===' and instead saw '=='                              eqeqeq
+     24:19  error    Unreachable code                                                 no-unreachable
+     39:16  error    Redundant double negation                                        no-extra-boolean-cast
+     41:16  warning  Expected '!==' and instead saw '!='                              eqeqeq
+     44:26  warning  Expected '!==' and instead saw '!='                              eqeqeq
+     46:24  warning  Expected '===' and instead saw '=='                              eqeqeq
+   3183:19  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   3184:21  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   3185:17  error    Empty block statement                                            no-empty
+   3194:22  warning  Expected '===' and instead saw '=='                              eqeqeq
+   3201:21  error    Unreachable code                                                 no-unreachable
+   3216:18  error    Redundant double negation                                        no-extra-boolean-cast
+   3218:18  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   3221:28  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   3223:26  warning  Expected '===' and instead saw '=='                              eqeqeq
+   4329:19  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   4330:21  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   4331:17  error    Empty block statement                                            no-empty
+   4340:22  warning  Expected '===' and instead saw '=='                              eqeqeq
+   4347:21  error    Unreachable code                                                 no-unreachable
+   4362:18  error    Redundant double negation                                        no-extra-boolean-cast
+   4364:18  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   4367:28  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   4369:26  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11375:15  error    'a' is a function                                                no-func-assign
+  11376:20  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11376:49  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11376:59  error    'Symbol' is not defined                                          no-undef
+  11382:28  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11383:35  error    'Symbol' is not defined                                          no-undef
+  11384:23  error    'Symbol' is not defined                                          no-undef
+  11400:22  warning  Expected '!==' and instead saw '!='                              eqeqeq
+  11402:20  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11436:28  error    'Symbol' is not defined                                          no-undef
+  11444:25  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11446:22  error    Unsafe usage of ThrowStatement                                   no-unsafe-finally
+  11466:13  error    'Symbol' is not defined                                          no-undef
+  11482:19  warning  Expected '!==' and instead saw '!='                              eqeqeq
+  11483:21  warning  Expected '!==' and instead saw '!='                              eqeqeq
+  11484:21  warning  Expected '!==' and instead saw '!='                              eqeqeq
+  11485:21  warning  Expected '!==' and instead saw '!='                              eqeqeq
+  11486:17  error    Empty block statement                                            no-empty
+  11497:20  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11498:20  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11515:21  error    Unreachable code                                                 no-unreachable
+  11581:25  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11606:14  warning  Expected '!==' and instead saw '!='                              eqeqeq
+  11656:21  warning  Expected '!==' and instead saw '!='                              eqeqeq
+  11657:20  error    'global' is not defined                                          no-undef
+  11658:20  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11658:30  error    'global' is not defined                                          no-undef
+  11659:24  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11659:62  error    'setImmediate' is not defined                                    no-undef
+  11674:22  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11688:30  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11690:26  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11727:30  error    'global' is not defined                                          no-undef
+  11730:7   error    'global' is not defined                                          no-undef
+  11733:22  warning  Expected '!==' and instead saw '!='                              eqeqeq
+  11735:30  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11787:38  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11795:38  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11810:25  warning  Expected '===' and instead saw '=='                              eqeqeq
+  11810:45  error    'Promise' is not defined                                         no-undef
+  12283:23  warning  Expected '===' and instead saw '=='                              eqeqeq
+  12301:23  warning  Expected '===' and instead saw '=='                              eqeqeq
+  12347:26  warning  Expected '===' and instead saw '=='                              eqeqeq
+  12488:14  error    Expected a conditional expression and instead saw an assignment  no-cond-assign
+  12598:20  warning  Expected '===' and instead saw '=='                              eqeqeq
+  12657:30  error    'c' is defined but never used                                    no-unused-vars
+  12703:23  error    Empty block statement                                            no-empty
+  12723:34  warning  Expected '===' and instead saw '=='                              eqeqeq
+  12865:16  error    Expected method 'get' to always return a value                   getter-return
+  12909:34  warning  Expected '!==' and instead saw '!='                              eqeqeq
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\brands.js
+  14:15  error    Empty block statement                            no-empty
+  22:7   error    'IS_BROWSER' is assigned a value but never used  no-unused-vars
+  23:7   error    'IS_DOM' is assigned a value but never used      no-unused-vars
+  28:7   error    'IS_IE' is assigned a value but never used       no-unused-vars
+  34:17  error    Unreachable code                                 no-unreachable
+  66:33  warning  Expected '!==' and instead saw '!='              eqeqeq
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\brands.min.js
+  10:17  warning  Expected '!==' and instead saw '!='  eqeqeq
+  10:63  warning  Expected '!==' and instead saw '!='  eqeqeq
+  11:15  error    Empty block statement                no-empty
+  18:53  warning  Expected '===' and instead saw '=='  eqeqeq
+  24:19  error    Unreachable code                     no-unreachable
+  39:16  error    Redundant double negation            no-extra-boolean-cast
+  41:16  warning  Expected '!==' and instead saw '!='  eqeqeq
+  44:26  warning  Expected '!==' and instead saw '!='  eqeqeq
+  46:24  warning  Expected '===' and instead saw '=='  eqeqeq
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\conflict-detection.js
+     7:15  error    'exports' is not defined                           no-undef
+     8:39  error    'define' is not defined                            no-undef
+     9:7   error    'define' is not defined                            no-undef
+    15:48  error    'Symbol' is not defined                            no-undef
+    16:7   error    '_typeof' is a function                            no-func-assign
+    20:7   error    '_typeof' is a function                            no-func-assign
+    23:31  error    'Symbol' is not defined                            no-undef
+    24:19  error    'Symbol' is not defined                            no-undef
+    50:33  warning  Expected '!==' and instead saw '!='                eqeqeq
+    75:15  error    Empty block statement                              no-empty
+    89:7   error    'IS_IE' is assigned a value but never used         no-unused-vars
+   156:36  warning  Expected '===' and instead saw '=='                eqeqeq
+   181:24  warning  Expected '===' and instead saw '=='                eqeqeq
+   208:9   error    'global' is not defined                            no-undef
+   620:12  warning  Unnecessary 'else' after 'return'                  no-else-return
+   653:16  error    'Promise' is not defined                           no-undef
+   654:7   error    Definition for rule 'compat/compat' was not found  compat/compat
+   663:15  error    Redundant double negation                          no-extra-boolean-cast
+   736:20  warning  Unnecessary 'else' after 'return'                  no-else-return
+  1070:14  error    'process' is not defined                           no-undef
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\conflict-detection.min.js
+   10:15  error    't' is a function                    no-func-assign
+   11:20  warning  Expected '===' and instead saw '=='  eqeqeq
+   11:49  warning  Expected '===' and instead saw '=='  eqeqeq
+   11:59  error    'Symbol' is not defined              no-undef
+   17:28  warning  Expected '===' and instead saw '=='  eqeqeq
+   18:35  error    'Symbol' is not defined              no-undef
+   19:23  error    'Symbol' is not defined              no-undef
+   26:22  warning  Expected '!==' and instead saw '!='  eqeqeq
+   28:20  warning  Expected '===' and instead saw '=='  eqeqeq
+   53:19  warning  Expected '!==' and instead saw '!='  eqeqeq
+   54:21  warning  Expected '!==' and instead saw '!='  eqeqeq
+   55:17  error    Empty block statement                no-empty
+   64:20  warning  Expected '===' and instead saw '=='  eqeqeq
+   65:20  warning  Expected '===' and instead saw '=='  eqeqeq
+   81:19  warning  Expected '!==' and instead saw '!='  eqeqeq
+   83:23  warning  Expected '!==' and instead saw '!='  eqeqeq
+   84:11  error    'global' is not defined              no-undef
+   85:23  warning  Expected '!==' and instead saw '!='  eqeqeq
+  599:18  error    'Promise' is not defined             no-undef
+  903:29  warning  Expected '===' and instead saw '=='  eqeqeq
+  924:21  warning  Expected '===' and instead saw '=='  eqeqeq
+  953:33  error    'process' is not defined             no-undef
+  970:12  warning  Expected '===' and instead saw '=='  eqeqeq
+  970:45  warning  Expected '!==' and instead saw '!='  eqeqeq
+  971:9   error    'exports' is not defined             no-undef
+  972:18  warning  Expected '===' and instead saw '=='  eqeqeq
+  972:38  error    'define' is not defined              no-undef
+  973:7   error    'define' is not defined              no-undef
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\fontawesome.js
+     9:48  error    'Symbol' is not defined                     no-undef
+    10:7   error    '_typeof' is a function                     no-func-assign
+    14:7   error    '_typeof' is a function                     no-func-assign
+    17:31  error    'Symbol' is not defined                     no-undef
+    18:19  error    'Symbol' is not defined                     no-undef
+    66:33  warning  Expected '!==' and instead saw '!='         eqeqeq
+   107:7   error    'Symbol' is not defined                     no-undef
+   120:25  error    'Symbol' is not defined                     no-undef
+   130:33  warning  Expected '!==' and instead saw '!='         eqeqeq
+   132:17  error    Unsafe usage of ThrowStatement              no-unsafe-finally
+   162:15  error    Empty block statement                       no-empty
+   195:17  error    Unreachable code                            no-unreachable
+   387:12  error    'global' is not defined                     no-undef
+   388:12  error    'global' is not defined                     no-undef
+   389:74  error    'setImmediate' is not defined               no-undef
+   539:7   error    'global' is not defined                     no-undef
+   544:5   error    'global' is not defined                     no-undef
+   672:48  error    'Promise' is not defined                    no-undef
+   743:12  warning  Unnecessary 'else' after 'return'           no-else-return
+   756:12  warning  Unnecessary 'else' after 'return'           no-else-return
+   869:12  warning  Unnecessary 'else' after 'return'           no-else-return
+  1147:12  warning  Unnecessary 'else' after 'return'           no-else-return
+  1501:12  warning  Unnecessary 'else' after 'return'           no-else-return
+  1741:12  warning  Unnecessary 'else' after 'return'           no-else-return
+  1839:12  warning  Unnecessary 'else' after 'return'           no-else-return
+  2081:41  error    'reject' is defined but never used          no-unused-vars
+  2149:12  warning  Unnecessary 'else' after 'return'           no-else-return
+  2477:22  error    Expected to return a value in method 'get'  getter-return
+  2541:14  warning  Unnecessary 'else' after 'return'           no-else-return
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\fontawesome.min.js
+     8:13  error    'i' is a function                                                no-func-assign
+     9:18  warning  Expected '===' and instead saw '=='                              eqeqeq
+     9:47  warning  Expected '===' and instead saw '=='                              eqeqeq
+     9:57  error    'Symbol' is not defined                                          no-undef
+    15:26  warning  Expected '===' and instead saw '=='                              eqeqeq
+    16:33  error    'Symbol' is not defined                                          no-undef
+    17:21  error    'Symbol' is not defined                                          no-undef
+    33:20  warning  Expected '!==' and instead saw '!='                              eqeqeq
+    35:18  warning  Expected '===' and instead saw '=='                              eqeqeq
+    69:26  error    'Symbol' is not defined                                          no-undef
+    77:23  warning  Expected '===' and instead saw '=='                              eqeqeq
+    79:20  error    Unsafe usage of ThrowStatement                                   no-unsafe-finally
+    99:11  error    'Symbol' is not defined                                          no-undef
+   115:17  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   116:19  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   117:19  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   118:19  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   119:15  error    Empty block statement                                            no-empty
+   130:18  warning  Expected '===' and instead saw '=='                              eqeqeq
+   131:18  warning  Expected '===' and instead saw '=='                              eqeqeq
+   148:19  error    Unreachable code                                                 no-unreachable
+   207:23  warning  Expected '===' and instead saw '=='                              eqeqeq
+   232:12  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   282:19  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   283:18  error    'global' is not defined                                          no-undef
+   284:18  warning  Expected '===' and instead saw '=='                              eqeqeq
+   284:28  error    'global' is not defined                                          no-undef
+   285:22  warning  Expected '===' and instead saw '=='                              eqeqeq
+   285:60  error    'setImmediate' is not defined                                    no-undef
+   300:20  warning  Expected '===' and instead saw '=='                              eqeqeq
+   314:28  warning  Expected '===' and instead saw '=='                              eqeqeq
+   316:24  warning  Expected '===' and instead saw '=='                              eqeqeq
+   353:28  error    'global' is not defined                                          no-undef
+   356:5   error    'global' is not defined                                          no-undef
+   359:20  warning  Expected '!==' and instead saw '!='                              eqeqeq
+   360:28  warning  Expected '===' and instead saw '=='                              eqeqeq
+   412:36  warning  Expected '===' and instead saw '=='                              eqeqeq
+   420:36  warning  Expected '===' and instead saw '=='                              eqeqeq
+   435:23  warning  Expected '===' and instead saw '=='                              eqeqeq
+   435:43  error    'Promise' is not defined                                         no-undef
+   908:21  warning  Expected '===' and instead saw '=='                              eqeqeq
+   926:21  warning  Expected '===' and instead saw '=='                              eqeqeq
+   972:24  warning  Expected '===' and instead saw '=='                              eqeqeq
+  1113:12  error    Expected a conditional expression and instead saw an assignment  no-cond-assign
+  1223:18  warning  Expected '===' and instead saw '=='                              eqeqeq
+  1282:28  error    't' is defined but never used                                    no-unused-vars
+  1328:21  error    Empty block statement                                            no-empty
+  1345:72  warning  Expected '===' and instead saw '=='                              eqeqeq
+  1485:14  error    Expected method 'get' to always return a value                   getter-return
+  1529:32  warning  Expected '!==' and instead saw '!='                              eqeqeq
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\regular.js
+  14:15  error    Empty block statement                            no-empty
+  22:7   error    'IS_BROWSER' is assigned a value but never used  no-unused-vars
+  23:7   error    'IS_DOM' is assigned a value but never used      no-unused-vars
+  28:7   error    'IS_IE' is assigned a value but never used       no-unused-vars
+  34:17  error    Unreachable code                                 no-unreachable
+  66:33  warning  Expected '!==' and instead saw '!='              eqeqeq
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\regular.min.js
+  10:17  warning  Expected '!==' and instead saw '!='  eqeqeq
+  10:63  warning  Expected '!==' and instead saw '!='  eqeqeq
+  11:15  error    Empty block statement                no-empty
+  18:53  warning  Expected '===' and instead saw '=='  eqeqeq
+  24:19  error    Unreachable code                     no-unreachable
+  39:16  error    Redundant double negation            no-extra-boolean-cast
+  41:16  warning  Expected '!==' and instead saw '!='  eqeqeq
+  44:26  warning  Expected '!==' and instead saw '!='  eqeqeq
+  46:24  warning  Expected '===' and instead saw '=='  eqeqeq
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\solid.js
+  14:15  error    Empty block statement                            no-empty
+  22:7   error    'IS_BROWSER' is assigned a value but never used  no-unused-vars
+  23:7   error    'IS_DOM' is assigned a value but never used      no-unused-vars
+  28:7   error    'IS_IE' is assigned a value but never used       no-unused-vars
+  34:17  error    Unreachable code                                 no-unreachable
+  66:33  warning  Expected '!==' and instead saw '!='              eqeqeq
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\solid.min.js
+  10:17  warning  Expected '!==' and instead saw '!='  eqeqeq
+  10:63  warning  Expected '!==' and instead saw '!='  eqeqeq
+  11:15  error    Empty block statement                no-empty
+  18:53  warning  Expected '===' and instead saw '=='  eqeqeq
+  24:19  error    Unreachable code                     no-unreachable
+  39:16  error    Redundant double negation            no-extra-boolean-cast
+  41:16  warning  Expected '!==' and instead saw '!='  eqeqeq
+  44:26  warning  Expected '!==' and instead saw '!='  eqeqeq
+  46:24  warning  Expected '===' and instead saw '=='  eqeqeq
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\v4-shims.js
+   7:8   error  'module' is not defined                          no-undef
+   8:39  error  'define' is not defined                          no-undef
+   9:7   error  'define' is not defined                          no-undef
+  20:15  error  Empty block statement                            no-empty
+  28:7   error  'IS_BROWSER' is assigned a value but never used  no-unused-vars
+  29:7   error  'IS_DOM' is assigned a value but never used      no-unused-vars
+  34:7   error  'IS_IE' is assigned a value but never used       no-unused-vars
+  39:14  error  'process' is not defined                         no-undef
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\images\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\js\v4-shims.min.js
+   12:19  warning  Expected '!==' and instead saw '!='  eqeqeq
+   13:21  warning  Expected '!==' and instead saw '!='  eqeqeq
+   14:17  error    Empty block statement                no-empty
+   23:22  warning  Expected '===' and instead saw '=='  eqeqeq
+   29:35  error    'process' is not defined             no-undef
+  514:20  warning  Expected '===' and instead saw '=='  eqeqeq
+  521:12  warning  Expected '===' and instead saw '=='  eqeqeq
+  521:45  warning  Expected '!==' and instead saw '!='  eqeqeq
+  522:8   error    'module' is not defined              no-undef
+  523:18  warning  Expected '===' and instead saw '=='  eqeqeq
+  523:38  error    'define' is not defined              no-undef
+  524:7   error    'define' is not defined              no-undef
+
+C:\Users\Abrar\Desktop\School\CPA SEM3\WEB-ONLINE-STORE\assignment\src\script.js
+  100:10  error    'askOrderNum' is defined but never used     no-unused-vars
+  149:10  error    'createMainPage' is defined but never used  no-unused-vars
+  170:10  error    'showForests' is defined but never used     no-unused-vars
+  182:10  error    'showMountains' is defined but never used   no-unused-vars
+  194:10  error    'showWildLife' is defined but never used    no-unused-vars
+  207:10  error    'createCart' is defined but never used      no-unused-vars
+  208:3   warning  Unexpected alert                            no-alert
+
+✖ 323 problems (167 errors, 156 warnings)
+  7 errors and 125 warnings potentially fixable with the `--fix` option.
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! assignment5-6@1.0.1 eslint: `eslint src/**/*.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the assignment5-6@1.0.1 eslint script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Abrar\AppData\Roaming\npm-cache\_logs\2020-04-07T03_13_21_795Z-debug.log

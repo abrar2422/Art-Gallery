@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="./images/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="createMainPage()">
+    <header class="container-fluid">
+      <h4><img src="./images/logo.png" alt="Logo" /> The Art Gallery</h4>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="store.html">Store</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <i class="cart fas fa-shopping-cart"> <span> <a href="cart.html">Cart</a></span></i>
+    </header>
+    <div class="jumbotron jumbotron-fluid">
+      <div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="car1 carousel-inner">
+            <div class="carousel-item active">
+              <p>"To be Creative means to be in love with life"</p>
+            </div>
+            <div class="car2 carousel-item">
+              <p>"Art does not reproduce what we see. It makes us see."</p>
+            </div>
+            <div class="car3 carousel-item">
+              <p>"Art is Freedom"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container-fluid">
+        <div class="side-nav">
+          <h6>Explore our Categories</h6>
+          <ul>
+            <li > <button onclick="showMountains()">Mountain</button> </li>
+            <li ><button onclick="showForests()">Forests</button></li>
+            <li ><button onclick="showWildLife()">WildLife</button></li>
+            <li ><button onclick="createMainPage()">See All</button></li>
+          </ul>
+        </div>
+      </div>
+      <main class="images container-fluid" id="store">
+        <!--
+
+
+          check the dommm
+
+        -->
+      </main>
+    </div>
+    <!-- Site footer -->
+    <footer>
+      <div>
+      <form>
+        <h6>Sign up for our weekly newsletter</h6>
+        <input type="email" class="form-control-sm" placeholder="Enter email" />
+        <button type="submit" class="btn-sm btn-secondary">Sign Up</button>
+      </form>
+      <br />
+      <p>
+        <ul>
+          <li>about</li>
+          <li>careers</li>
+          <li>Our team</li>
+          <li>Community</li>
+        </ul>
+      </p>
+    </div>
+      <p>
+        <i class="fab fa-instagram"></i> <i class="fab fa-facebook-f"></i
+        ><i class="fab fa-linkedin-in"></i>
+        <i class="far fa-envelope"></i>
+      </p>
+    
+      <p class="copyright">&copy; 2020 The Art Gallery</p>
+    </footer>
+
+    <!--Bootstrap required Links-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!--My javascript file-->
+    <script src="script.js"></script>
+
+  </body>
+</html>
