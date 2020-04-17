@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -12,24 +13,30 @@
       href="https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat|Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
 
     <title>WEB222 Store</title>
   </head>
   <body>
     <!-- landing page -->
     <div id="landing-page">
-      <h1>
-        <span class="w">W</span>elcome To
-        <span class="store-name">The Art Gallery</span>
-      </h1>
+      <div class="heading">
+        <h1>
+          Welcome To
+          <span class="store-name">The Art Gallery</span>
+        </h1>
+      </div>
+
+      <!--Paragraph-->
       <p>
         "We have an unparalleled selection of paintings, photography, sculpture, and drawings by
         over 60,000 artists from around the world"
       </p>
 
       <div class="call-to-action">
-        <button class="btn btn-right btn-lg btn-light"><a href="store.html">Shop Now</a></button>
+        <button class="btn btn-right btn-lg btn-light">
+          <a href="src/store.html">Shop Now</a>
+        </button>
         <button
           type="button"
           data-toggle="modal"
@@ -41,6 +48,7 @@
       </div>
     </div>
 
+    <!--Modal-->
     <div
       class="modal fade bd-example-modal-lg"
       tabindex="-1"

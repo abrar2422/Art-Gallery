@@ -21,17 +21,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body onload="createMainPage()">
-    <header class="container-fluid">
-      <h4><img src="./images/logo.png" alt="Logo" /> The Art Gallery</h4>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="store.html">Store</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+    <header >
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html"><h4><img src="./images/logo.png" alt="Logo" /> The Art Gallery</h4></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="store.html">Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <i class="cart fas fa-shopping-cart"> <span> <a href="cart.html">Cart</a></span></i>
+          </span>
+        </div>
       </nav>
-      <i class="cart fas fa-shopping-cart"> <span> <a href="cart.html">Cart</a></span></i>
     </header>
     <main class="container" id="cart">
 
@@ -44,16 +59,16 @@
 
 
 
-    <footer>
+    <footer class="content">
       <div>
       <form>
         <h6>Sign up for our weekly newsletter</h6>
-        <input type="email" class="form-control-sm" placeholder="Enter email" />
+        <input type="email" placeholder="Email">
         <button type="submit" class="btn-sm btn-secondary">Sign Up</button>
       </form>
       <br />
       <p>
-        <ul>
+        <ul class="mobile">
           <li>about</li>
           <li>careers</li>
           <li>Our team</li>

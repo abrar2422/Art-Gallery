@@ -73,11 +73,7 @@ a:link {
   width: 200px;
   margin-top: 30px;
 }
-.w {
-  color: #d9d6cf;
-  font-size: 120px;
-  font-family: 'Montserrat';
-}
+
 button a {
   color: black;
 }
@@ -90,12 +86,12 @@ button a {
 /*****Store Home*****/
 
 /*Navigation*/
-header {
+/* header {
   display: flex;
   justify-content: space-around;
   background-color: #d9d6cf;
   height: 70px;
-}
+} */
 h4 {
   font-family: 'Amatic Sc';
   font-size: 50px;
@@ -265,4 +261,502 @@ input[type='email'] {
 }
 .visible {
   visibility: visible;
+}
+.categories {
+  display: none;
+}
+/*-----------------------------------------------------Media Queries--------------------------------------------------------------*/
+/*-----------------------------------Iphones---------------------------------------*/
+@media (max-width: 400px) {
+  #landing-page h1 {
+    font-size: 1.5em;
+  }
+  .store-name {
+    font-size: 1.6em;
+  }
+
+  #landing-page p {
+    padding: 0 25px;
+    text-align: center;
+    font-size: 13px;
+  }
+  .call-to-action {
+    flex-direction: column;
+    width: 60%;
+  }
+  .side-nav {
+    visibility: hidden;
+  }
+  .side-nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .side-nav {
+    display: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .side-nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .jumbotron {
+    display: none;
+  }
+  .categories {
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    background-image: linear-gradient(to top, black, white, white, transparent);
+    opacity: 0.8;
+  }
+  .categories-list {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .content {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .categories button {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .mobile {
+    display: none;
+  }
+  footer form {
+    width: 60%;
+
+    text-align: center;
+  }
+  .footer-form {
+    width: 40px;
+  }
+  footer input[type='email'] {
+    width: 100px;
+    border-radius: 5px;
+  }
+  img {
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    transition: all 1s;
+  }
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box {
+    width: 350px;
+    margin: 10px;
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+  }
+  .box h5 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .box p {
+    font-size: 12px;
+  }
+  .main-form input[type='email'] {
+    width: 210px;
+  }
+  .main-form input[type='text'] {
+    width: 210px;
+  }
+  .main-form {
+    margin: 0;
+    text-align: center;
+  }
+  .main-form textarea {
+    width: 375px;
+  }
+  .about {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+  footer.content {
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+}
+
+/*------------------------------------------------Iphone Pluss---------------------------------------------*/
+@media (min-width: 400px) and (max-width: 614px) {
+  #landing-page h1 {
+    font-size: 2em;
+  }
+  .store-name {
+    font-size: 2em;
+  }
+
+  #landing-page p {
+    padding: 0 40px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+  }
+  .call-to-action {
+    flex-direction: column;
+    width: 60%;
+  }
+  .side-nav {
+    display: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .side-nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .jumbotron {
+    display: none;
+  }
+  .categories {
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    background-image: linear-gradient(to top, black, white, white, transparent);
+    opacity: 0.8;
+  }
+  .categories-list {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .content {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .categories button {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .mobile {
+    display: none;
+  }
+  footer.content {
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+  footer form {
+    width: 60%;
+
+    text-align: center;
+  }
+  .footer-form {
+    width: 40px;
+  }
+  footer input[type='email'] {
+    width: 100px;
+    border-radius: 5px;
+  }
+  img {
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    transition: all 1s;
+  }
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box {
+    width: 350px;
+    margin: 10px;
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+  }
+  .box h5 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .box p {
+    font-size: 12px;
+  }
+  .main-form input[type='email'] {
+    width: 210px;
+  }
+  .main-form input[type='text'] {
+    width: 210px;
+  }
+  .main-form {
+    margin: 0;
+    text-align: center;
+  }
+  .main-form textarea {
+    width: 375px;
+  }
+  .about {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+}
+
+/*-------------------------Ipad----------------------------------------------*/
+@media (max-width: 900px) and (min-width: 615px) {
+  #landing-page h1 {
+    font-size: 2em;
+  }
+  .store-name {
+    font-size: 2em;
+  }
+
+  #landing-page p {
+    padding: 0 40px;
+    text-align: center;
+    font-size: 1em;
+  }
+  .call-to-action {
+    width: 80%;
+    justify-content: space-around;
+  }
+  .side-nav {
+    display: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .side-nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .jumbotron {
+    display: none;
+  }
+  .categories {
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    background-image: linear-gradient(to top, black, white, white, transparent);
+    opacity: 0.8;
+  }
+  .categories-list {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .content {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .categories button {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .mobile {
+    display: none;
+  }
+  footer form {
+    width: 60%;
+
+    text-align: center;
+  }
+  .footer-form {
+    width: 40px;
+  }
+  footer input[type='email'] {
+    width: 100px;
+    border-radius: 5px;
+  }
+  img {
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    transition: all 1s;
+  }
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box {
+    width: 350px;
+    margin: 10px;
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+  }
+  .box h5 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .box p {
+    font-size: 12px;
+  }
+  .main-form input[type='email'] {
+    width: 210px;
+  }
+  .main-form input[type='text'] {
+    width: 210px;
+  }
+  .main-form {
+    margin: 0;
+    text-align: center;
+  }
+  .main-form textarea {
+    width: 375px;
+  }
+  .about {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+  footer.content {
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+}
+/*---------------------------------------------Ipad pro-----------------------------------------------*/
+@media (max-width: 1200px) and (min-width: 901px) {
+  #landing-page h1 {
+    font-size: 2em;
+  }
+  .store-name {
+    font-size: 2em;
+  }
+
+  #landing-page p {
+    padding: 0 40px;
+    text-align: center;
+    font-size: 1em;
+  }
+  .call-to-action {
+    width: 60%;
+    justify-content: space-around;
+  }
+  .side-nav {
+    display: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .side-nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .jumbotron {
+    display: none;
+  }
+  .categories {
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    background-image: linear-gradient(to top, black, white, white, transparent);
+    opacity: 0.8;
+  }
+  .categories-list {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .content {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .categories button {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .mobile {
+    display: none;
+  }
+  footer form {
+    width: 60%;
+
+    text-align: center;
+  }
+  .footer-form {
+    width: 40px;
+  }
+  footer input[type='email'] {
+    width: 100px;
+    border-radius: 5px;
+  }
+  img {
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    transition: all 1s;
+  }
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box {
+    width: 350px;
+    margin: 10px;
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+  }
+  .box h5 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .box p {
+    font-size: 12px;
+  }
+  .main-form input[type='email'] {
+    width: 210px;
+  }
+  .main-form input[type='text'] {
+    width: 210px;
+  }
+  .main-form {
+    margin: 0;
+    text-align: center;
+  }
+  .main-form textarea {
+    width: 375px;
+  }
+  .about {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+
+  footer.content {
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+}
+/*-------------------------------------Minimized window----------------------------------------------*/
+@media (max-width: 1350px) and (min-width: 1201px) {
+  #landing-page h1 {
+    font-size: 3em;
+  }
+  .store-name {
+    font-size: 1.5em;
+  }
+
+  #landing-page p {
+    padding: 0 40px;
+    text-align: center;
+    font-size: 1em;
+  }
+  .call-to-action {
+    width: 50%;
+    justify-content: space-around;
+  }
 }
